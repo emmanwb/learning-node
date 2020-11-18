@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/emmanwb/learning-node/issues"
   },
-  "homepage": "https://github.com/emmanwb/learning-node#readme"
+  "homepage": "https://github.com/emmanwb/learning-node#readme",
+  "devDependencies": {
+    "prettier": "^2.1.2"
+  }
 }
