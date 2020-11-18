@@ -1,5 +1,6 @@
 const http = require("http");
 
+const port = 3000;
 http
   .createServer(function (req, res) {
     const { url } = req;
@@ -14,4 +15,4 @@ http
       return;
     }
   })
-  .listen(3000, () => console.log("Listening on port 3000."));
+  .listen(port, () => console.log(`Listening on port ${port}.`));
